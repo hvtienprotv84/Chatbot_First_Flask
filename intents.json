@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin kính chào",
+        "Chào bạn ơi",
+        "Bạn có khỏe không?",
+        "Có ai ở đây không?",
+        "Chào",
+        "Chúc một ngày tốt lành"
+      ],
+      "responses": [
+        "Chào bạn 🙂",
+        "Xin kính chào, cảm ơn bạn đã ghé thăm",
+        "Chào đằng ấy :)). Tôi có thể giúp gì cho bạn?",
+        "Xin chào. Bạn cần gì không?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt bạn", "Hẹn gặp lại nhé", "Tạm biệt nha"],
+      "responses": [
+        "Hẹn gặp lại, cảm ơn đã ghé thăm",
+        "Chúc bạn một ngày vui",
+        "Tạm biệt! Hẹn gặp lại bạn sớm nhé."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn bạn",
+        "Cảm ơn nhiều nha",
+        "Thật hữu ích",
+        "Cảm ơn rất nhiều!"
+      ],
+      "responses": [
+        "Vui lòng giúp đỡ!",
+        "Bất cứ khi nào!",
+        "Hân hạnh được phục vụ"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Bạn có bán gì?",
+        "Có các loại sản phẩm nào?",
+        "Bạn có sản phẩm gì?"
+      ],
+      "responses": ["Chúng tôi có cà phê và trà", "Chúng tôi bán trà và cà phê"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Bạn nhận thẻ gì?",
+        "Bạn có nhận thẻ Mastercard không?",
+        "Tôi có thể thanh toán qua Paypal không?",
+        "Bạn chỉ nhận tiền mặt à?"
+      ],
+      "responses": [
+        "Chúng tôi nhận VISA, Mastercard và Paypal",
+        "Chúng tôi chấp nhận hầu hết các loại thẻ và Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Giao hàng trong bao lâu?",
+        "Vận chuyển bao lâu?",
+        "Khi nào tôi nhận được hàng?"
+      ],
+      "responses": [
+        "Giao hàng mất khoảng 2-4 ngày",
+        "Vận chuyển mất tầm 2-4 ngày"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Kể một câu đùa vui!",
+        "Kể chuyện cười đi!",
+        "Bạn có biết chuyện hài không?"
+      ],
+      "responses": [
+        "Tại sao thụt đầu gối lại đốt miệng? Vì anh ấy uống cà phê trước khi nó nguội.",
+        "Bò nói gì khi con trai đi học xa? Bison."
+      ]
+    }
+  ]
+}
